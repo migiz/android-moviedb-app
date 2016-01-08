@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:id="@+id/row_name"
+        android:textColor="#58D3F7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/moviename"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		/>
+    
+    <TextView
+        android:id="@+id/row_year"
+        android:textColor="#01A9DB"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/movieyear"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		/>
+    
+    <TextView
+        android:id="@+id/row_genre"
+        android:textColor="#01A9DB"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="@string/genre"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		/>
+    
+
+</LinearLayout>

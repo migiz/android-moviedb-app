@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+
+
+
+<TextView
+	android:id="@+id/TV_movieName"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/moviename"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<EditText
+	android:id="@+id/ET_movieName "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	android:hint="@string/entermoviename"
+	/>
+
+<TextView
+	android:id="@+id/TV_movieYear"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/movieyear"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<EditText
+	android:id="@+id/ET_movieYear "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	android:hint="@string/year_released"
+	android:inputType="number" />
+
+
+<TextView
+	android:id="@+id/TV_movieGenre"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/moviegenre"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<EditText
+	android:id="@+id/ET_movieGenre "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	android:hint="@string/entermoviegenre"/>
+
+
+<TextView
+	android:id="@+id/TV_movieRuntime"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/movieruntime"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<EditText
+	android:id="@+id/ET_movieRuntime "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	android:hint="@string/entermovieruntime"/>
+
+  <Button
+		android:id="@+id/add_button"
+		android:background="#01A9DB"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:text= "@string/add_button" />
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <TextView
+	android:id="@+id/TV_movieName"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/moviename"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<TextView
+	android:id="@+id/mNameTV "
+	android:textColor="#01A9DB"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	/>
+
+<TextView
+	android:id="@+id/TV_movieYear"
+	android:textColor="#2ECCFA"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/movieyear"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<TextView
+	android:id="@+id/mYearTV "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+/>	
+
+
+<TextView
+	android:id="@+id/TV_movieGenre"
+	android:textColor="#01A9DB"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/moviegenre"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+<TextView
+	android:id="@+id/mGenreTV "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+/>
+
+
+<TextView
+	android:id="@+id/TV_movieRuntime"
+	android:textColor="#01A9DB"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/movieruntime"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+<TextView
+	android:id="@+id/mRuntimeTV "
+	android:textColor="#01A9DB"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	/>
+
+  
+  
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:background="#2ECCFA"
+        android:text="@string/clear_button" />
+
+    <Button
+        android:id="@+id/save_movie_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E9AFE"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:text="@string/save_movie_button" />
+  
+  </LinearLayout>
+ </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+

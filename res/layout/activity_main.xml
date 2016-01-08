@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+ 
+      <TextView
+	android:id="@+id/welcome"
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	android:text="@string/welcome"
+	android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+    
+    
+    <Button
+		android:id="@+id/add_movie_button"
+		android:background="#2E9AFE"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:text= "@string/add_movie_button" />
+    
+    <Button
+		android:id="@+id/search_movies_button"
+		android:background="#01A9DB"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/add_movie_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:text= "@string/search_movies_button" />
+    
+    <Button
+		android:id="@+id/saved_movies_button"
+		android:background="#2ECCFA"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/search_movies_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:text= "@string/saved_movies_button" />
+    <Button
+		android:id="@+id/exit_button"
+		android:background="#58D3F7"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/saved_movies_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:text= "@string/exit_button" />
+    
+    
+
+</RelativeLayout>

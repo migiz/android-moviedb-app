@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:textColor="#2ECCFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/search_movie"/>
+    
+    <EditText
+	android:id="@+id/et_movie_to_search "
+	android:textColor="#2ECCFA"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:ems="10"
+	android:hint="@string/search"/>
+
+    <Button
+        android:id="@+id/search_movie_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#01A9DB"
+        android:text="@string/btn_search" />
+
+    <TextView
+        android:id="@+id/tv_search_result"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2ECCFA" />
+    
+    <Button
+        android:id="@+id/view_movie_details_button"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#01A9DB"
+        android:text="@string/view_details" />
+    
+</LinearLayout>

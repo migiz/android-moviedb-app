@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Movies DB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_movie_button">Add Movie</string>
+    <string name="search_movies_button">Search Movies</string>
+    <string name="saved_movies_button">Saved Movies</string>
+    <string name="exit_button">Exit</string>
+    <string name="moviename">Movie Name</string>
+    <string name="entermoviename">Enter name of the movie</string>
+    <string name="movieyear">Year</string>
+    <string name="moviegenre">Movie Genre</string>
+    <string name="genre">Genre</string>
+    <string name="entermoviegenre">Comedy, Action, Sci-Fi, etc.</string>
+    <string name="year_released">Year Released</string>
+    <string name="add_button">ADD</string>
+    <string name="clear_button">Clear</string>
+    <string name="save_movie_button">Save Movie </string>
+    <string name="search">Enter movie to search</string>
+	<string name="search_movie">Search movie: </string>
+	<string name="btn_search">Search</string>
+	<string name="search_result">Place holder for results</string>
+	<string name="searching">Searching</string>
+	<string name="name_not_found">Name not found</string>
+	<string name="year_not_found">Year not found</string>
+	<string name="genre_not_found">Genre not found</string>
+	<string name="runtime_not_found">Runtime not found</string>
+	<string name="view_details">View details</string>
+	<string name="movieruntime">Runtime</string>
+	<string name="entermovieruntime">Enter runtime</string>
+	<string name="welcome">Welcome to My Movies Database! </string>
+	
+    
+</resources>
